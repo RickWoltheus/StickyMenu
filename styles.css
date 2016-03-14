@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+}
+nav {
+    background-color: aqua;
+    height: 2em;
+    display: block;
+    width: 100%;
+    transition-property: top;
+    transition-duration: 500ms;
+    top: 0;
+    position: fixed
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2em;
+    overflow: hidden;
+    
+}
+
+nav ul li{
+    float: left;
+    padding: 0 2em;
+}
+nav ul li:hover {
+    background-color: aquamarine;
+}
+nav ul li a {
+    color: grey;
+    line-height: 2em;
+    text-decoration: none
+}
